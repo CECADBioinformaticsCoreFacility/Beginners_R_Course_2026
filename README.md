@@ -65,31 +65,32 @@ We strongly recommend that you try to familiarize yourself with R and RStudio by
 
 __Day 1:__
 
-*Session 1 :: Introduction to R Basics* 
-- R Background [UG]
-- Interacting with R (CLI & R-Studio, Rmd/qmd) [DM]
+*Session 1 ::
+- Introduction to R Basics* 
+- R Background 
+- Interacting with R (CLI & R-Studio, Rmd/qmd) 
 
-*Session 2 :: Basic Concepts in R* [UG]
+*Session 2 :: Basic Concepts in R*
 - Variables
 - Data Types
 - R Data Structure
 - Operators
 
-*Session 3 :: More Basic Concepts in R*[DM]
+*Session 3 :: More Basic Concepts in R*
 - Control Flow
 - R Loops
 - The apply family(s,l,v)
 
-*Session 4 :: Data Reshaping*[AA]
+*Session 4 :: Data Reshaping*
 - Data IO (read & write files)
 - Data Reshaping (base)
 
 __Day 2:__
 
-*Session 5 :: Visualization* [UG]
+*Session 5 :: Visualization* 
 - R Plots (base)
 
-*Session 6 :: Descriptive Statistics*[DM]
+*Session 6 :: Descriptive Statistics*
 
 *Session 7 :: Practice 1*
 
@@ -98,18 +99,13 @@ __Day 2:__
 ## Getting Started
 To get started with the course follow the link below
 
-https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2025/
-
-
-[Slides Beginners Day 1](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2025/slides/BeginnersDay1.html)
-
-[Slides Beginners Day 2](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2025/slides/BeginnersDay2.html)
+*[The link will be provided on Friday, May 15, 2026.]*
 
 To clone this repository using Git:
 
 ****
 
-`git clone https://github.com/CECADBioinformaticsCoreFacility/Beginners_R_Course_2025.git`
+`git clone https://github.com/CECADBioinformaticsCoreFacility/Beginners_R_Course_2026.git`
 
 Navigate into the cloned directory to access all course materials, datasets, and exercises.
 
