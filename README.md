@@ -66,40 +66,40 @@ We strongly recommend that you try to familiarize yourself with R and RStudio by
 __Day 1:__
 
 *Session 1 :: Introduction to R Basics* 
-- Introduction to the course
-- R Background 
-- Interacting with R (CLI & R-Studio, Rmd/qmd) 
+- [Introduction to the course](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/Slides/Session_1.1.html)
+- [R Background](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/Slides/Session_1.2.html) 
+- [Interacting with R (CLI & R-Studio, Rmd/qmd)](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/Slides/Session_1.3.html) 
 
-*Session 2 :: Basic Concepts in R*
+[*Session 2 :: Basic Concepts in R*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/Slides/Session_2.html)
 - Variables
 - Data Types
 - R Data Structure
 - Operators
 
-*Session 3 :: More Basic Concepts in R*
+[*Session 3 :: More Basic Concepts in R*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/Slides/Session_3.html)
 - Control Flow
 - R Loops
 - The apply family(s,l,v)
 
-*Session 4 :: Data Reshaping*
+[*Session 4 :: Data Reshaping*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/Slides/Session_4.html)
 - Data IO (read & write files)
 - Data Reshaping (base)
 
 __Day 2:__
 
-*Session 5 :: Visualization* 
+[*Session 5 :: Visualization* ](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/Slides/Session_5.html)
 - R Plots (base)
 
-*Session 6 :: Descriptive Statistics*
+[*Session 6 :: Descriptive Statistics*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/Slides/Session_6.html)
 
 *Session 7 :: Practice 1*
 
 *Session 8 :: Practice 2*
 
 ## Getting Started
-To get started with the course follow the link below
+To get started with the course, follow the link below
 
-*[The link will be provided on Friday, May 15, 2026.]*
+https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/
 
 To clone this repository using Git:
 
