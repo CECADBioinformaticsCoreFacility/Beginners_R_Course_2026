@@ -11,7 +11,7 @@
 > [!NOTE]
 >
 > <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/info.svg" width="15" height="15"> 
-> LAST UPDATE: 06.05.2026
+> LAST UPDATE: 15.05.2026
 
 # R Programming Course for Biologists
 
