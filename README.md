@@ -1,5 +1,13 @@
 # Beginners R Course 2026
 
+> [!CAUTION]
+> This is the development version of the Repository. The Final verson will ve available before the course starts. 
+> All the features might be working. Use at your own risk !!!
+
+```diff
+- !!! This is A Beta Version !!!
+```
+
 > [!NOTE]
 >
 > <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/info.svg" width="15" height="15"> 
