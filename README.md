@@ -76,22 +76,26 @@ __Day 1:__
 *Session 1 :: Introduction to R Basics* 
 - [Introduction to the course](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_1.1.html)
 - [R Background](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_1.2.html) 
-- [Interacting with R (CLI & R-Studio, Rmd/qmd)](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_1.3.html) 
+- [Interacting with R (CLI & R-Studio, Rmd/qmd)](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_1.3.html#/section) 
+- [Quiz](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Quizzes/Session_1_quiz.html) 
 
 [*Session 2 :: Basic Concepts in R*](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_2.html)
 - Variables
 - Data Types
 - R Data Structure
 - Operators
+- [Quiz](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Quizzes/Session_2_quiz.html) 
 
 [*Session 3 :: More Basic Concepts in R*](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_3.html)
 - Control Flow
 - R Loops
 - The apply family(s,l,v)
+- [Quiz](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Quizzes/Session_3_quiz.html) 
 
 [*Session 4 :: Data Reshaping*](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_4.html)
 - Data IO (read & write files)
 - Data Reshaping (base)
+- [Quiz](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Quizzes/Session_4_quiz.html) 
 
 __Day 2:__
 
@@ -99,6 +103,7 @@ __Day 2:__
 - R Plots (base)
 
 [*Session 6 :: Descriptive Statistics*](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_6.html)
+- [Quiz](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Quizzes/Session_6_quiz.html) 
 
 *Session 7 :: Practice 1*
 
