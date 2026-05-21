@@ -2026,20 +2026,20 @@ Levels: green &lt; yellow &lt; red</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">&amp;</td>
-<td style="text-align: center;">Element-wise Logical AND operator. It returns TRUE if both elements are TRUE</td>
+<td style="text-align: center;">&amp;&amp;</td>
+<td style="text-align: center;">Statement-wise Logical AND operator: Returns TRUE if left and right statement is TRUE</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">&amp;&amp;</td>
-<td style="text-align: center;">Logical AND operator - Returns TRUE if both statements are TRUE</td>
+<td style="text-align: center;">&amp;</td>
+<td style="text-align: center;">Vectorizing Logical AND operator</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">|</td>
-<td style="text-align: center;">Elementwise- Logical OR operator. It returns TRUE if one of the elements is TRUE</td>
+<td style="text-align: center;">||</td>
+<td style="text-align: center;">Statement-wise Logical OR operator: Returns TRUE if one of the statements is TRUE.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">||</td>
-<td style="text-align: center;">Logical OR operator. It returns TRUE if one of the statements is TRUE.</td>
+<td style="text-align: center;">|</td>
+<td style="text-align: center;">Vectorizing Logical OR operator.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">!</td>
@@ -3177,7 +3177,7 @@ window.QuartoSupport = function () {
         backgroundTransition: 'none',
 
         // Number of slides away from the current that are visible
-        viewDistance: 100,
+        viewDistance: 3,
 
         // Number of slides away from the current that are visible on mobile
         // devices. It is advisable to set this to a lower number than
