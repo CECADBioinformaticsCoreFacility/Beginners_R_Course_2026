@@ -1,5 +1,5 @@
 # =============================================================================
-#  R Beginners Course 2026 — Session 3
+#  R Beginners Course 2026 — Session 4
 #  Data I/O and Reshaping (Base R)
 #
 #  Companion script for the slides
