@@ -1,3 +1,8 @@
+# Operator before Data Structure
+# kahoot for quiz
+
+#From Bricks to Burge Khalifa
+
 ##---------------------------##
 ##` Session 1: Follow Along `##
 ##---------------------------##

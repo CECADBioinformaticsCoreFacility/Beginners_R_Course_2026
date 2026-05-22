@@ -1,0 +1,41 @@
+---
+title: "TestStructure"
+author: "DM"
+date: "2026-05-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading Data
+
+I am loading the data here,
+
+```{r Loading}
+data("iris")
+
+## display data sample
+head(iris)
+
+```
+##  Statistics
+
+```{r stat}
+## get statistics
+summary(iris)
+
+```
+
+## Plot
+
+```{r plot}
+
+## get plot
+boxplot(Petal.Length ~ Species, data = iris, col=c(1:3))
+
+
+```
+
+
