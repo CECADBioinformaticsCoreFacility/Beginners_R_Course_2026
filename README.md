@@ -101,6 +101,7 @@ __Day 2:__
 
 [*Session 5 :: Visualization* ](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_5.html)
 - R Plots (base)
+- [Quiz](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Quizzes/Session_5_quiz.html) 
 
 [*Session 6 :: Descriptive Statistics*](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_6.html)
 - [Quiz](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Quizzes/Session_6_quiz.html) 
