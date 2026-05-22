@@ -2232,7 +2232,7 @@ display:block!important;
 <h2><code>rbind()</code> — Live</h2>
 <div class="column-page">
 <div class="panel-tabset">
-<ul id="tabset-6" class="panel-tabset-tabby"><li><a data-tabby-default href="#tabset-6-1"><code>rbind()</code> — <strong>Reverse</strong></a></li><li><a href="#tabset-6-2">Mismatched Columns — <strong>Break</strong></a></li></ul>
+<ul id="tabset-6" class="panel-tabset-tabby"><li><a data-tabby-default href="#tabset-6-1"><code>rbind()</code> — <strong>Reverse</strong></a></li><li><a href="#tabset-6-2">Column Order vs. Column Names — <strong>Compare</strong></a></li></ul>
 <div class="tab-content">
 <div id="tabset-6-1">
 <div class="callout callout-note no-icon callout-style-simple">
@@ -2253,15 +2253,15 @@ display:block!important;
 </ul>
 </div>
 <div id="tabset-6-2">
-<div class="callout callout-important no-icon callout-style-simple">
+<div class="callout callout-tip no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
-<p><strong>This chunk is <em>supposed</em> to break.</strong> <code>rbind()</code> requires identical column names <em>in the same order</em> — the error message is the point.</p>
+<p><strong>The real rules for <code>rbind()</code> on data frames:</strong> same number of columns, matching column <strong>names</strong> (order does <em>not</em> matter — R reorders for you), and compatible types. A name mismatch is what actually breaks it.</p>
 </div>
 </div>
 </div>
 <aside class="notes">
-<p>Discuss rbind error on mismatched columns.</p>
+<p>Show that reordered columns work, then break it with a renamed column.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2275,14 +2275,21 @@ display:block!important;
 }</style></aside>
 <div class="cell" data-exercise="rbind_mismatch">
 <div class="sourceCode" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href></a>upper <span class="ot">&lt;-</span> iris[<span class="dv">1</span><span class="sc">:</span><span class="dv">75</span>, ]</span>
-<span id="cb23-2"><a href></a>swapped <span class="ot">&lt;-</span> iris[<span class="dv">76</span><span class="sc">:</span><span class="dv">150</span>, <span class="fu">c</span>(<span class="st">&quot;Species&quot;</span>,<span class="st">&quot;Sepal.Length&quot;</span>,<span class="st">&quot;Sepal.Width&quot;</span>,<span class="st">&quot;Petal.Length&quot;</span>,<span class="st">&quot;Petal.Width&quot;</span>)]</span>
-<span id="cb23-3"><a href></a><span class="fu">tryCatch</span>(</span>
-<span id="cb23-4"><a href></a>  <span class="fu">rbind</span>(upper, swapped),</span>
-<span id="cb23-5"><a href></a>  <span class="at">error =</span> <span class="cf">function</span>(e) <span class="fu">conditionMessage</span>(e)</span>
-<span id="cb23-6"><a href></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb23-2"><a href></a><span class="co"># (1) Different column ORDER — works, R matches by name</span></span>
+<span id="cb23-3"><a href></a>swapped <span class="ot">&lt;-</span> iris[<span class="dv">76</span><span class="sc">:</span><span class="dv">150</span>, <span class="fu">c</span>(<span class="st">&quot;Species&quot;</span>,<span class="st">&quot;Sepal.Length&quot;</span>,<span class="st">&quot;Sepal.Width&quot;</span>,<span class="st">&quot;Petal.Length&quot;</span>,<span class="st">&quot;Petal.Width&quot;</span>)]</span>
+<span id="cb23-4"><a href></a><span class="fu">head</span>(<span class="fu">rbind</span>(upper, swapped), <span class="dv">3</span>)</span>
+<span id="cb23-5"><a href></a></span>
+<span id="cb23-6"><a href></a><span class="co"># (2) Different column NAME — this is what breaks</span></span>
+<span id="cb23-7"><a href></a>renamed <span class="ot">&lt;-</span> iris[<span class="dv">76</span><span class="sc">:</span><span class="dv">150</span>, ]</span>
+<span id="cb23-8"><a href></a><span class="fu">names</span>(renamed)[<span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="st">&quot;SL&quot;</span></span>
+<span id="cb23-9"><a href></a><span class="fu">tryCatch</span>(</span>
+<span id="cb23-10"><a href></a>  <span class="fu">rbind</span>(upper, renamed),</span>
+<span id="cb23-11"><a href></a>  <span class="at">error =</span> <span class="cf">function</span>(e) <span class="fu">conditionMessage</span>(e)</span>
+<span id="cb23-12"><a href></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
-<li>❌ Error or misalignment: <code>rbind()</code> requires identical column names &amp; order.</li>
+<li>✅ Reordered columns: fine — <code>rbind()</code> aligns by name.</li>
+<li>❌ Mismatched names (or column counts): error.</li>
 </ul>
 </div>
 </div>
@@ -2664,7 +2671,7 @@ display:block!important;
 <tr class="even">
 <td>Stack rows</td>
 <td><code>rbind()</code></td>
-<td>same column names &amp; order</td>
+<td>same number of columns &amp; matching names (order auto-aligned)</td>
 </tr>
 <tr class="odd">
 <td>Join on key</td>

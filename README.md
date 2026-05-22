@@ -106,9 +106,9 @@ __Day 2:__
 [*Session 6 :: Descriptive Statistics*](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Slides/Session_6.html)
 - [Quiz](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Quizzes/Session_6_quiz.html) 
 
-*Session 7 :: Practice 1*
+[*Session 7 :: Practice 1*](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Practice/PracticeSession.html#practice-by-sessions) 
 
-*Session 8 :: Practice 2*
+[*Session 8 :: Practice 2*](https://cecadbioinformaticscorefacility.github.io/Beginners_R_Course_2026/Practice/PracticeSession.html#practice-across-sessions) 
 
 ## Getting Started
 To get started with the course, follow the link below
